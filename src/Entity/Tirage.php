@@ -1,8 +1,9 @@
 <?php
 
-interface Tirage
-{
+namespace App\Entity;
 
-    function tirageAuSort();
+interface TirageInterface
+{
+    function tirageAuSort(): int;
 
 }
